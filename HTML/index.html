@@ -23,10 +23,22 @@
 			pre {color: white;}
 			h2 {color: white;}
 			blockquote {color: white;}
+			th, td {
+			border: 3px ridge rgb(224, 255, 255);
+			border-radius: 10px;
+			padding: 5px;
+			font-family:Times New Roman;
+			color: white;
+			text-align:center;
+			background-color: MediumSeaGreen;
+			}
 		</style>
 	</head>
 	<body>
 
+		<center><audio controls autoplay>
+			<source src="Andrea Vanzo - Song Of Storms.mp3" type="audio/mpeg">
+		</audio></center>
 		<h1 style="font-family:Courier New; text-align:center; background-color:hsl(282, 50%, 77%);">Ejercicios de HTML</h1>
 		<p title="trabajo de Ofelia Morales Sánchez" style="font-family:Times New Roman; font-size:115%;">Práctica de programación <abbr title="HyperText Markup Language">HTML</abbr>.</p><br>
 <!-- Información referente al estudiante -->
@@ -37,7 +49,19 @@ Universidad Autónoma de Sinaloa</a></b><br>
 <b>Materia:</b> <i>Desarrollo de Aplicaciones Web</i>
 <b>Profesor:</b> <i>M.I.A. Herman Geovany Ayala Zúñiga</i>
 <b>Estudiante:</b> <i>Ofelia Morales Sánchez<sub><a href="#Ref">1</a></sub></i>
-		</pre><br>
+		</pre>
+		<center><table style="border-spacing: 4px;">
+  			<tr>
+    				<th style="width:20%; height:20px">País</th>
+    				<th style="width:20%">Estado</th>
+    				<th style="width:20%">Municipio</th>
+  			</tr>
+  			<tr>
+    				<td style="height:20px">México</td>
+    				<td>Sinaloa</td>
+    				<td>Mazatlán</td>
+  			</tr>
+		</table></center><br>
 		<hr>
 <!-- Practica de como citar -->
 		<p style="font-family:Times New Roman;">Citemos de la <cite>Apología de Sócrates</cite>, de Platon:</p>
@@ -50,6 +74,8 @@ Este hombre, por una parte, cree que sabe algo, mientras que no sabe [nada]. Por
 		<h2 style="font-family:Times New Roman; font-size:150%">Curso en:</h2>
 		<center>
 			<img src="w3schools.png" width="100" height="100" style="border:2px solid orange;"><br>
+			<iframe width="420" height="315" src="https://www.youtube.com/embed/tDcXo2LpXD0?si=Qn9WEFWQheg8m1Aiautoplay=1&mute=1">
+			</iframe><br>
 			<a href="https://www.w3schools.com" target="_blank" style="font-family:Times New Roman;">W3Schools</a><br>
 			<p id="Ref" style="font-family:Times New Roman; font-size:80%;"><sup>1</sup>Creadora del presente documento</p>
 		</center>
